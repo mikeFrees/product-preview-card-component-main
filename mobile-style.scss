@@ -48,5 +48,8 @@ section{
         align-items: center;
         justify-content: center; 
         height: 3.5rem;   
+        &:active{
+            background-color: darken($color: style.$DarkCyan, $amount: 10);
+        } 
     }
 }
