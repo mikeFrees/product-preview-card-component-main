@@ -99,4 +99,11 @@ section button svg {
   color: hsl(228, 45%, 44%);
 }
 
+@media only screen and (min-device-width: 375px) and (max-device-width: 480px) {
+  main {
+    grid-template-columns: 100%;
+    grid-template-rows: 40% 60%;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
