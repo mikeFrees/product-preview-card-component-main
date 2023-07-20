@@ -1,0 +1,52 @@
+@use "style";
+
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+main {
+    width: 90%;
+    height: 90%;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 40% 60%;
+    justify-items: center;
+    justify-content: center;
+    align-content: center;
+    picture{
+        width: 100%;
+    }
+}
+
+img{
+    border-radius: 10px 10px 0px 0px;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    h2{
+        font-size: 2rem;
+    }
+    p{
+        &#price{
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            span{
+                margin-right: 10%;
+            }
+        }
+    }
+    button{
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+        height: 3.5rem;   
+    }
+}

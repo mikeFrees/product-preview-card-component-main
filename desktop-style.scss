@@ -1,0 +1,21 @@
+@use "style";
+
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+main{
+    width: 40%;
+    height: 55%;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    justify-items: center;
+}
+
+img{
+    border-radius: 10px 0px 0px 10px;
+}
